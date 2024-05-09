@@ -37,11 +37,14 @@ a{
     } 
 #for{
     display: flex;
-    gap: 200px;
-    margin: 5%;
+    gap: 180px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+
 }
 .cool{
-    background-color:rgb(226, 246, 226);
+    background-color:rgb(227, 240, 239);
 }
 .image{
     width: 10px;
@@ -88,15 +91,15 @@ a{
 }
 #girl{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: rgb(241,198,137);
 }
 .book{
     width: 20px;
 }
  body{
-    background-color: lightblue;
+    
  }  
 
 
@@ -116,5 +119,8 @@ a{
 .image{
     flex-wrap: wrap;
     grid-template-columns: auto;
+}
+#girl{
+    width: 300px;
 }
 }
