@@ -1,42 +1,111 @@
-.book{
+#navbar{
     
     display: flex;
     justify-content: space-evenly;
 }
-.log{
-    background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
-    overflow-x: hidden;
+a{
+    text-decoration: none;
+    color: black;
 }
-.for{
+
+
+.maindiv{
+    background-color: white;
+   margin: 5%;
+    overflow-x: hidden;
+    border-radius: 5px;
+    
+}
+
+    .input-wrapper { 
+        position: relative; 
+        display: inline-block; 
+        /* width: 40%; */
+    } 
+
+    .input-wrapper input { 
+        padding-right: 50px; 
+        
+    } 
+
+    .input-wrapper button { 
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        border: none; 
+        background-color: transparent; 
+    } 
+#for{
     display: flex;
-    gap: 50px;
+    gap: 200px;
+    margin: 5%;
 }
 .cool{
-    background-color:rgb(169, 220, 218);
+    background-color:rgb(226, 246, 226);
 }
 .image{
-    width: 50px;
+    width: 10px;
     display: flex;
     gap: 20px;
 }
-.but{
+#button{
     border-radius: 40px;
     background-color: aquamarine;
 }
-.but1{
+#button3{
     border-radius: 40px;
     background-color: aquamarine;
 }
-.but2{
+.input{
     border-radius: 40px;
 }
-@media screen and (min-width:280px) and (max-width:500px){
+#count{
+    text-align: center;
+}
+.img1{
+    width: 20px;
+}
+.img2{
+    width: 10px;
+}
+.img3{
+    width: 10px;
+}
+.img4{
+    width: 15px;
+}
+.amazon{
+    width: 60px;
+}
+.i5{
+    width: 50%;
+    height: 20%;
+   
+}
+
+.drible{
+   
+}
+#girl{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241,198,137);
+}
 .book{
+    width: 20px;
+}
+ body{
+    background-color: lightblue;
+ }  
+
+
+
+@media screen and (min-width:280px) and (max-width:500px){
+#navbar{
     flex-wrap: wrap;
 }
-.for{
+#for{
     flex-wrap: wrap;
     grid-template-columns: auto;
 }
